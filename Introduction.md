@@ -11,4 +11,4 @@ V8编译并执行JavaScript源代码，处理对象的内存分配，回收不�
 
 JavaScript主要被用作浏览器的客户端脚本语言，例如用来操作DOM(Document Object Model).DOM是在浏览器提供的，JavaScript引擎并没有内置DOM。V8引擎也是如此 - Google Chrome提供了DOM。不过，V8提供了ECMA标准中指定的所有数据类型，操作符，对象和函数。
 
-通过V8引擎，素有C++编写的程序都可以将自己的对象和函数公开给JavaScript代码调用。至于公开哪些对象或者函数完全由你来决定。事实上有很多应用程序已经是这样做了，例如苹果Mac OS X和Yahoo!中的Adobe Flash和仪表板小部件小工具。
+通过V8引擎，所有C++编写的程序都可以将自己的对象和函数公开给JavaScript代码调用。至于公开哪些对象或者函数完全由你来决定。事实上有很多应用程序已经是这样做了，例如苹果Mac OS X和Yahoo!中的Adobe Flash和仪表板小部件小工具。
